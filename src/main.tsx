@@ -47,7 +47,7 @@ const router= createBrowserRouter(
       <Route path='wet_canteen' element={<Wet_canteen/>}></Route>
       <Route path='works_section' element={<Work_section/>}></Route>
       <Route path='workshop' element={<Workshop/>}></Route>
-      <Route path='HRD' element={<HRD/>}></Route>
+      <Route path='hrd' element={<HRD/>}></Route>
       <Route path='sports' element={<Sports/>}></Route>
     </Route>
 

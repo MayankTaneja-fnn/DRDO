@@ -13,7 +13,7 @@ const tableContent=[{link:"admin",name:"प्रशासन",name_eng:"Heading
 function HRD() {
   return (
     <div className="pt-52">
-      <div className="w-screen pr-2 pt-5 pl-2">
+      <div className=" pr-2 pt-5 pl-2">
       <table className="w-full border-solid border-2 border-black">
         {tableContent.map((table,index)=>(
           <Link to={table.link}>

@@ -13,8 +13,31 @@ const tableContent=[{link:"admin",name:"प्रशासन",name_eng:"Heading
 function admin() {
   return (
     <div className="pt-52">
-      <div className="w-screen pr-2 pt-5 pl-2">
+      <div className="text-2xl font-bold ml-4">
+          प्रशासन/Admin
+      </div>
+      <div className="mt-2 ml-4 flex">
+        <div className="text-md">
+          New Topic
+        </div>
+        <div className="ml-5 text-md">
+          Search this forum
+        </div>
+      </div>
+      <div className=" pr-2 pt-5 pl-2">
       <table className="w-full border-solid border-2 border-black">
+        <tr>
+        <th className="w-full">
+          <td className="w-[58vw] items-start text-left pl-2">Topic</td>
+          <td className="w-[8vw]">Replies</td>
+          <td className="w-[8vw]">
+            Views
+          </td>
+          <td className="pl-10">
+            Last Post
+          </td>
+        </th>
+        </tr>
         {tableContent.map((table,index)=>(
           <Link to={table.link}>
           <tr key={index} className="flex items-center border-b-2 border-solid border-black">
