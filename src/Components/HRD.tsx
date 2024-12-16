@@ -10,7 +10,7 @@ const tableContent=[{link:"admin",name:"प्रशासन",name_eng:"Heading
     {link:"admin",name:"प्रशासन",name_eng:"Heading 7",num:"00",num2:"200",job:"To be Written",by:"boardadmin",date:"10 Sep 2024, 16:51"}
 ]
 
-function Technical() {
+function HRD() {
   return (
     <div className="pt-52">
       <div className="w-screen pr-2 pt-5 pl-2">
@@ -50,4 +50,4 @@ function Technical() {
   )
 }
 
-export default Technical
+export default HRD

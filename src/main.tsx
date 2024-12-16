@@ -18,6 +18,12 @@ import Mask_facility from './Components/Mask_facility';
 import Public from './Components/Public';
 import Oms_group from './Components/Oms_group';
 import Solid_State from './Components/Solid_State';
+import Workshop from './Components/Workshop';
+import Work_section from './Components/Works_section';
+import Wet_canteen from './Components/Wet_canteen';
+import Technical from './Components/Technical';
+import HRD from './Components/HRD';
+import Sports from './Components/sports';
 
 
 const router= createBrowserRouter(
@@ -37,10 +43,12 @@ const router= createBrowserRouter(
       <Route path='public' element={<Public/>}></Route>
       <Route path='oms_group' element={<Oms_group/>}></Route>
       <Route path='solid_state_physic_laboratory' element={<Solid_State/>}></Route>
-      <Route path='technical_secretariat' element={<Login/>}></Route>
-      <Route path='wet_canteen' element={<Login/>}></Route>
-      <Route path='works_section' element={<Login/>}></Route>
-      <Route path='workshop' element={<Login/>}></Route>
+      <Route path='technical_secretariat' element={<Technical/>}></Route>
+      <Route path='wet_canteen' element={<Wet_canteen/>}></Route>
+      <Route path='works_section' element={<Work_section/>}></Route>
+      <Route path='workshop' element={<Workshop/>}></Route>
+      <Route path='HRD' element={<HRD/>}></Route>
+      <Route path='sports' element={<Sports/>}></Route>
     </Route>
 
   )
